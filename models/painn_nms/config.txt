@@ -1,0 +1,15 @@
+[DEFAULT]
+max_epochs = 400
+restart_latest = False
+batch_size = 40
+seed_value = 42
+save_path = ./ckps/final_Rh_all_nms-f
+train_path = ./datasets/final_Rh_all_nms-f_train.db
+valid_path = ./datasets/final_Rh_all_nms-f_val.db
+test_path = ./datasets/final_Rh_all_nms-f_test.db
+split_type = random
+split_ratio = [0.8, 0.1, 0.1]
+num_interactions = 5
+hidden_state_size = 256
+cutoff = 7
+
