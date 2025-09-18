@@ -1,12 +1,16 @@
-# RMLP for organometallic catalysis
+# RMLP for Organometallic Catalysis
 
-## Introduction
+![License](https://img.shields.io/github/license/Senppoa/RMLP-for-OMCat)[![DOI](https://img.shields.io/badge/DOI-10.1021/acs.jctc.5c01047-137446)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047)
 
-This repository includes the structures of organometallic catalytic reaction systems discussed in the article "**Accelerating the Transition State Search of Organometallic Catalysis with Reactive Machine Learning Potentials**," as well as the corresponding code for transition state structure optimization using the integrated reactive machine learning potential (RMLP) model.
+## Overview
+
+This repository includes the structures of organometallic catalytic reaction systems discussed in the article [***Accelerating the Transition State Search of Organometallic Catalysis with Reactive Machine Learning Potentials***](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047), as well as the corresponding code for transition state structure optimization and IRC calculations driven by the integrated reactive machine learning potential (RMLP) model.
+
+## Repo Contents
 
 The contents of each folder are as follows:
 
-1. **dataset**: The transition state initial guess structures of the organometallic catalytic reaction systems in the paper (including the organic ligands designed by ScaffoldCAMD, metal rhodium, and reaction substrates).
+1. **dataset**: The transition state initial guess structures of the organometallic catalytic reaction systems in the paper (including the organic ligands designed by `ScaffoldCAMD`, metal rhodium, and reaction substrates).
 2. **example**: Workfolder of transition state optimization by RMLP model.
 3. **models**: The RMLP models in the article, including MACE w/ NMS, AL MACE w/ NMS, MACE w/o NMS, PaiNN w/ NMS.
 4. **neuralneb**: Dependency modules of PaiNN model.
@@ -53,4 +57,8 @@ Type: str. Specifies the output file path.
 ```
 
 Type: str. Specifies the RMLP model file path.
+
+## Contact
+
+Please contact us ([liuqilei@dlut.edu.cn](mailto:liuqilei@dlut.edu.cn)) if you have any question about our implementation.
 

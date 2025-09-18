@@ -1,9 +1,14 @@
 import os
+num_cpu_threads = '1'
+os.environ['OMP_NUM_THREADS']=num_cpu_threads
+os.environ['MKL_NUM_THREADS']=num_cpu_threads
+os.environ['OPENBLAS_NUM_THREADS']=num_cpu_threads
+os.environ['NUMEXPR_NUM_THREADS']=num_cpu_threads
+
 import time
 import torch
 import warnings
 import numpy as np
-
 from xtb.ase.calculator import XTB
 from mace.calculators import MACECalculator
 from ase.utils.forcecurve import fit_images, plotfromfile
@@ -32,6 +37,7 @@ import jax
 
 jax.config.update('jax_platform_name', 'cpu')
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+warnings.filterwarnings("ignore")
 
 
 def visualize_mep(images, save_dir, rxn_name, job_type, interval=50):
