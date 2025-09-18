@@ -13,7 +13,7 @@ The contents of each folder are as follows:
 1. **dataset**: The transition state initial guess structures of the organometallic catalytic reaction systems in the paper (including the organic ligands designed by `ScaffoldCAMD`, metal rhodium, and reaction substrates).
 2. **example**: Workfolder of transition state optimization by RMLP model.
 3. **models**: The RMLP models in the article, including MACE w/ NMS, AL MACE w/ NMS, MACE w/o NMS, PaiNN w/ NMS.
-4. **neuralneb**: Dependency modules of PaiNN model.
+4. **neuralneb**: Dependency modules of PaiNN model (sourced from [NeuralNEB](https://gitlab.com/matschreiner/neuralneb)).
 5. **ts_opt.py**: Script for transition state optimization driven by RMLP models.
 
 ## Required modules
