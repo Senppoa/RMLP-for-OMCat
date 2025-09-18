@@ -1,10 +1,10 @@
 # RMLP for Organometallic Catalysis
 
-![License](https://img.shields.io/github/license/Senppoa/RMLP-for-OMCat)[![DOI](https://img.shields.io/badge/DOI-10.1021/acs.jctc.5c01047-137446)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047)
+![License](https://img.shields.io/github/license/Senppoa/RMLP-for-OMCat) [![DOI](https://img.shields.io/badge/DOI-10.1021/acs.jctc.5c01047-137446)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047)
 
 ## Overview
 
-This repository includes the structures of organometallic catalytic reaction systems discussed in the article [***Accelerating the Transition State Search of Organometallic Catalysis with Reactive Machine Learning Potentials***](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047), as well as the corresponding code for transition state structure optimization and IRC calculations driven by the integrated reactive machine learning potential (RMLP) model.
+This repository includes the initial guess transition state structures of the organometallic catalytic reaction (Rh-catalyzed ethylene hydrogenation) discussed in the article [***Accelerating the Transition State Search of Organometallic Catalysis with Reactive Machine Learning Potentials***](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047), as well as the corresponding code for transition state structure optimizations and IRC calculations driven by the reactive machine learning potential (RMLP) model.
 
 ## Repo Contents
 
