@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository includes the initial guess transition state structures of the organometallic catalytic reaction (Rh-catalyzed ethylene hydrogenation) discussed in the article [***Accelerating the Transition State Search of Organometallic Catalysis with Reactive Machine Learning Potentials***](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047), as well as the corresponding code for transition state structure optimizations and IRC calculations driven by the reactive machine learning potential (RMLP) model.
+This repository includes the initial guess transition state structures of the organometallic catalytic reaction (Rh-catalyzed ethylene hydrogenation) discussed in the article [***Accelerating Transition State Search and Ligand Screening for Organometallic Catalysis with Reactive Machine Learning Potential***](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01047), as well as the corresponding code for transition state structure optimizations and IRC calculations driven by the reactive machine learning potential (RMLP) model.
 
 ## Repo Contents
 
